@@ -229,6 +229,20 @@
                 text-align: center;
             }
         }
+
+        .footer {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .footer .footer-text {
+            padding: 20px 0;
+            font-weight: 600;
+            font-size: 1.5rem;
+            color: #e66;
+        }
     </style>
 </head>
 <body>
@@ -342,6 +356,12 @@
             </div>
         </div>
     </section>
+    <footer class="footer">
+        <audio src="./audios/قمري.mp3" controls autoplay loop></audio>
+        <div class="footer-text">
+            <p>أحمد عمل الموقع ده علشان بيحبك 💖</p>
+        </div>
+    </footer>
     <script>
 
   const targetDate = new Date("2028-06-11T00:00:00").getTime();
